@@ -1,0 +1,77 @@
+/* src/components/Features.css */
+.features {
+  text-align: left;
+  padding: 100px 20px;
+  background-image: url('/public/background.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.feature {
+  text-align: left;
+  padding: 100px 20px;
+  background-image: url('/public/background.jpeg');
+  background-size: cover;
+  color: #fff;
+  background-repeat: no-repeat;
+
+  /* Glassmorphism properties */
+  background: rgba(255, 255, 255, 0.2); /* Semi-transparent white background */
+  border-radius: 15px; /* Rounded corners for the glass effect */
+  backdrop-filter: blur(10px); /* Blur effect */
+  -webkit-backdrop-filter: blur(10px); /* Safari support */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  border: 1px solid rgba(255, 255, 255, 0.3); /* Border to enhance the glass effect */
+}
+
+.features {
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.feature {
+  margin-bottom: 40px;
+}
+
+.feature h2 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+.feature p {
+  font-size: 1em;
+}
+
+/* Flexbox container for inline features */
+.inline-features1 {
+  display: flex;
+  justify-content: center; /* Centers the features horizontally */
+  gap: 0px; /* Space between the features */
+}
+.inline-features2 {
+  display: flex;
+  justify-content: center; /* Centers the features horizontally */
+  gap: 20px; /* Space between the features */
+  margin-bottom: 40px;
+}
+
+.feature1, .feature2, .feature3, .feature4, .feature5 {
+  background: rgba(255, 255, 255, 0.2); /* Semi-transparent white background */
+  padding: 20px;
+  border-radius: 8px;
+  flex: 1; /* Allow features to grow and fill space */
+  margin-left: 10px;
+  margin-right: 10px;
+  backdrop-filter: blur(10px); /* Blur effect */
+  -webkit-backdrop-filter: blur(10px); /* Safari support */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  border: 1px solid rgba(255, 255, 255, 0.3); /* Border to enhance the glass effect */
+}
+
+/* Override the first feature's margin to avoid extra space on the left */
+.inline-features2 .feature1 {
+  margin-left: 0;
+}
+.header1{
+  font-size: 30px;
+}

@@ -1,0 +1,25 @@
+/* src/components/Footer.css */
+.footer {
+    text-align: center;
+    padding: 40px 20px;
+    background-color: #000;
+    color: #fff;
+    background-image: url('/public/footerbcg.jpeg');
+    background-size: flex;
+  }
+  
+  .footer .sign-up, .footer .login {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    margin: 10px;
+    cursor: pointer;
+  }
+  
+  .social-media a {
+    margin: 0 10px;
+    color: #fff;
+    text-decoration: none;
+  }
+  

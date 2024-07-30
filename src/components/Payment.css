@@ -1,0 +1,106 @@
+/* src/components/Payment.css */
+.payment-container {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    background-color: #f9f9f9;
+    height: 100vh;
+    
+  }
+  
+  .payment-details {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .back-button {
+    background: none;
+    border: none;
+    color: #007bff;
+    font-size: 1rem;
+    cursor: pointer;
+    margin-bottom: 20px;
+  }
+  
+  h2 {
+    margin-bottom: 20px;
+  }
+  
+  .price {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .price span {
+    font-size: 0.875rem;
+    color: #6c757d;
+  }
+  
+  .price-breakdown, .total {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+  
+  .promo-code {
+    background: none;
+    border: none;
+    color: #007bff;
+    font-size: 0.875rem;
+    cursor: pointer;
+    margin-bottom: 20px;
+  }
+  
+  hr {
+    margin: 20px 0;
+  }
+  
+  .payment-form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    width: 40%;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+  }
+  
+  input[type="text"] {
+    width: calc(50% - 10px);
+  }
+  
+  .pay-button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    cursor: pointer;
+    font-size: 1rem;
+  }
+  
+  .disclaimer {
+    font-size: 0.875rem;
+    color: #6c757d;
+    margin-top: 20px;
+  }
+  

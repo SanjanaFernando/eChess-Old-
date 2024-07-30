@@ -1,0 +1,32 @@
+/* src/components/Hero.css */
+.hero {
+    text-align: left;
+    padding: 100px 20px;
+    background-image: url('/public/background.jpeg');
+    background-size: cover;
+    color: #fff;
+    background-repeat: no-repeat;
+  }
+  
+  .hero h1 {
+    font-size: 2em;
+    margin:150px 1000px 50px 0px;
+  }
+  
+  .hero p {
+    font-size: 1.5em;
+    margin:10px 1000px 100px 0px;
+    position: relative;
+  }
+  
+  .get-started {
+    margin:0px 1000px 250px 0px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1.5em;
+    cursor: pointer;
+    border-radius: 10px;
+  }
+  
